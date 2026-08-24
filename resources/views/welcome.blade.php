@@ -76,6 +76,8 @@
                         <h1 class="h4 mb-2">Where is the problem?</h1>
                         <p class="text-secondary mb-1">Property: <strong id="area-selected-property"></strong></p>
                         <p class="text-secondary mb-0">Complaint: <strong id="selected-complaint"></strong></p>
+                        <p id="area-no-results" class="text-center text-secondary py-4 d-none mb-0">No matching areas found.</p>
+                        <p class="selected-area mt-3 mb-0 d-none" id="selected-area"></p>
                     </div>
 
                     <div class="search-field mb-4">
@@ -106,8 +108,7 @@
                         @endforeach
                     </div>
 
-                    <p id="area-no-results" class="text-center text-secondary py-4 d-none mb-0">No matching areas found.</p>
-                    <p class="selected-area mt-3 mb-0 d-none" id="selected-area"></p>
+                    
                 </form>
 
                 <form id="permission-step" class="d-none" novalidate>
